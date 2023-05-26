@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FanBedgeHub-Gerenciamento</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="management" id="managementBody">
+    <div class="container">
+        <header>
+            <div class="headerDecoration">
+                <h1 class="headerText">Gerenciamento de Membros</h1>
+            </div>
+            <img width="108px" height="78px" class="headerBrand" src="../assets/img/logo.png" alt="">
+            <a class="returnLink" href="../index.html"><img width="20.056px" height="20.056px" src="../assets/img/x.png" alt=""></a>
+        </header>
+        <main>
+            <section class="leftSide">
+                <select name="fanClub" class="fanClubFilter" id="fanClub">
+                    <option value="" selected hidden disabled>Select the Fan-Club</option>
+                    <option value="mandalorian">Mandalorian</option>
+                    <option value="minecraft">Minecraft</option>
+                </select>
+                <section class="members" id="membersBox">
+                </section>
+            </section>
+            <section class="infoBox" id="informationBox">
+            </section>
+        </main>
+    </div>
+
+    <script src="../javascript/management.js"></script>
+</body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FanBadgeHub</title>
+</head>
+<body class="mainPage" id="search">
+    <div class="container">
+        <header>
+            <img width="118.98" height="85.2" class="brand" src="assets/img/logo.png" alt="">
+            <div class="navBarBox">
+                <ul class="navBar">
+                    <li class="navItem"><a class="navLink" href="#search">PESQUISE</a></li>
+                    <li class="navItem"><button id="loginActive" class="navLink">LOGIN</button></li>
+                    <li class="navItem"><button id="criarFaClube" class="navLink">PUBLICAR</button></li>
+                    <li class="navItem"><a class="navLink" href="pages/management.html">CLUBS</a></li>
+                    <li class="navItem"><a class="navLink" href="pages/video.html">PITCH</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <section class="searchBar" id="funClubsCarrossel">
+                <input class="searchInput" type="search">
+                <div class="searchIcon">
+                    <img width="25px" height="22px" src="assets/img/lupa.png" alt="">
+                </div>
+            </section>
+            <section class="mainContent">
+                <article class="displayClub">
+                    <p class="clubComent">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consectetur impedit culpa reiciendis quod reprehenderit commodi fuga officia doloremque totam molestias hic ut dolorem nisi, non eveniet illo vero minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor in excepturi quas dignissimos ullam ducimus sequi esse fugiat. Repellat molestias reiciendis aliquid aut animi incidunt aspernatur commodi rem veniam quam.
+                    </p>
+                    <img id="imagefan" class="clubImage" width="474px" height="494px" src="assets/img/mandalorian.jpg" alt="">
+                </article>
+                <article class="displayClub">
+                    <img id="imagefan" class="clubImage" width="474px" height="494px" src="assets/img/miencraft.png" alt="">
+                    <p class="clubComent">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem consectetur impedit culpa reiciendis quod reprehenderit commodi fuga officia doloremque totam molestias hic ut dolorem nisi, non eveniet illo vero minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente aspernatur earum ab neque dolore numquam magni aut ducimus at magnam, quisquam natus iusto saepe! Nulla hic ipsam pariatur ipsum labore!
+                    </p>
+                </article>
+                <section class="reviews" id="reviews">
+                    <aticle class="review">
+                        <img width="165px" height="165px" class="reviewImage" src="assets/img/person-1.jpg" alt="">
+                        <p class="reviewText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam laudantium voluptas.</p>
+                    </aticle>
+                    <aticle class="review">
+                        <img width="165px" height="165px" class="reviewImage" src="assets/img/person-2.jpg" alt="">
+                        <p class="reviewText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam laudantium voluptas.</p>
+                    </aticle>
+                    <aticle class="review">
+                        <img width="165px" height="165px" class="reviewImage" src="assets/img/person-3.jpg" alt="">
+                        <p class="reviewText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam laudantium voluptas.</p>
+                    </aticle>
+                </section>
+            </section>
+        </main>
+        <footer id="about">
+            <span>Copyright</span>
+        </footer>
+    </div>
+
+   
+
+    <div class="modal" id="loginSingUp">
+        <div class="loginModalContent">
+            <article class="loginMessage">
+                <svg id="goBack" class="goBackArrow" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg>
+                <img class="loginBrand" width="157.6px" height="113.6px" src="assets/img/logo.png" alt="">
+                <p class="loginParagraph" id="message">
+                    Registre-se agora e desfrute de uma experiência incrível em nosso site! Seja parte da nossa comunidade online e aproveite todos os benefícios exclusivos. Não perca tempo, inscreva-se hoje mesmo!
+                </p>
+                <button id="change" class="changeButton">CADASTRE-SE JÁ!</button>
+            </article>
+            <section class="form" id="login">
+                <h4 class="loginTitle">FAÇA LOGIN JÁ!</h4>
+                <div class="inputs">
+                    <input type="email" required placeholder="E-MAIL:">
+                    <input class="passwordSpacement" required type="password" placeholder="SENHA:">
+                    <span class="loginOptions">Ou acesse por:</span>
+                    <div class="icons">
+                        <a target="_blank" href="https://accounts.google.com/v3/signin/identifier?dsh=S873332857%3A1684498194698673&authuser=0&continue=https%3A%2F%2Fwww.google.com.br%2F%3Fhl%3Dpt-BR&ec=GAlAmgQ&hl=pt-BR&flowName=GlifWebSignIn&flowEntry=AddSession"> <img class="socialIcon" width="38.424px" height="40px" src="assets/img/google.png" alt=""></a>
+                        <a target="_blank" href="https://pt-br.facebook.com/"><img class="socialIcon" width="38.424px" height="40px" src="assets/img/facebook.png" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/"><img class="socialIcon" width="38.424px" height="40px" src="assets/img/instagram.png" alt=""></a>
+                    </div>
+                    <input type="submit" class="finishLogin" value="CONTINUAR">
+                </div>
+            </section>
+            <section class="form formSingUp" id="singUp">
+                <h4 class="singUpTitle">CADASTRE-SE JÁ!</h4>
+                <div class="inputs inputsSingUp">
+                    <input type="text" placeholder="NOME:" required>
+                    <input class="emailSpacement" type="email" required placeholder="E-MAIL:">
+                    <input class="passwordSpacement" required type="password" placeholder="SENHA:">
+                    <span class="loginOptions">Ou acesse por:</span>
+                    <div class="icons">
+                        <a target="_blank" href="https://accounts.google.com/v3/signin/identifier?dsh=S873332857%3A1684498194698673&authuser=0&continue=https%3A%2F%2Fwww.google.com.br%2F%3Fhl%3Dpt-BR&ec=GAlAmgQ&hl=pt-BR&flowName=GlifWebSignIn&flowEntry=AddSession"> <img class="socialIcon" width="38.424px" height="40px" src="assets/img/google.png" alt=""></a>
+                        <a target="_blank" href="https://pt-br.facebook.com/"><img class="socialIcon" width="38.424px" height="40px" src="assets/img/facebook.png" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/"><img class="socialIcon" width="38.424px" height="40px" src="assets/img/instagram.png" alt=""></a>
+                    </div>
+                    <input type="submit" class="finishLogin" value="CONTINUAR">
+                </div>
+            </section>
+        </div>
+    </div>
+    <div id="id1" class="modal">
+        <section id="id1" class="modalCartao">
+            <article class="modalConteudo">
+                <img width="75px" height="75px" class="modalCartaoP" src="./assets/img/person-2.jpg" alt="">
+                <img width="100px" height="75px" class="modalCartaoP2" src="./assets/img/logo.png" alt="">
+                <input type="url" placeholder="Place a URL content here">
+                <button class="btnFechar" id="btnX">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+            </article>
+            <section class="modalConteudo2">
+                <img class="imgPublicar" width="476px" height="100%" src="./assets/img/mandalorian.jpg" alt="">
+                <div class="desc">
+                    <article class="desc-1">
+                        <input class="input-desc" type="text" placeholder="Name">
+                        <input class="input-desc" type="url" placeholder="Input a link here">
+                        <textarea class="input-desc-D" type="text"></textarea>
+                    </article>
+                </div>
+            </section>
+        </section>
+    </div>
+    <div id="modal-fan" class="modal">
+        <section id="" class="modalCartao-mf">
+            <article class="modalConteudo">
+                <img width="100px" height="75px" class="modalCartaoP2" src="./assets/img/logo.png" alt="">
+                <button class="" id="button-mf-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+            </article>
+            <section class="modalConteudo-mf">
+                <div class="desc-mf">
+                    <article class="desc-1">
+                        <input type="text" class="mf-text">
+                        <input type="text" class="mf-text">
+                        <input type="text" class="mf-text">
+                    </article>
+                    <div class="img-mf1">
+                        <img class="img-mf2" src="./assets/img/mandalorian.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <button id="criarCart" class="criarCart">CRIE SUA CARTEIRINHA AQUI!!!</button>
+        </section>
+    </div>
+    <div id="criarCarte" class="modal">
+        <section id="" class="modalCriar">
+            <article class="modalConteudo">
+                <img width="100px" height="75px" class="modalCartaoP2" src="./assets/img/logo.png" alt="">
+                <button class="" id="button-carte-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                </button>
+            </article>
+            <section class="modalConteudo-mf">
+                <div class="desc-criar">
+                    <article class="desc-1">
+                        <input type="text" class="mf-text">
+                        <input type="text" class="mf-text">
+                        <input type="text" class="mf-text">
+                    </article>
+                    <div class="img-perfil">
+                        <img class="img-mf2" style="border-radius: 50%;" src="./assets/img/mandalorian.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <button id="criarCart" class="criarCart">APLICAR</button>
+        </section>
+    </div>
+
+    <script src="javascript/app.js"></script>
+</body>
+</html>
